@@ -34,7 +34,7 @@ DPAD_LEFT = "left"
 DPAD_RIGHT = "right"
 
 gamepad = vg.VX360Gamepad()
-print("Press CTRL + SHIFT + ALT + Z to stop the script)
+print("Press CTRL + SHIFT + ALT + Z to stop the script")
 
 def calculate_left_stick_value():
 
