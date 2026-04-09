@@ -4,8 +4,10 @@ This is a program in python that converts keyboard inputs into gamepad inputs fo
 It requires python along with the following libraries:\
     i.    keyboard\
     ii.   mouse\
-    iii.  vgamepad\
-    \
+    iii.  vgamepad
+```bash
+pip install -r requirements.txt
+```
 Currently I have not added any mappings for the right joystick, I am working on it as to convert the mouse movement into the right joystick.\
 \
 It uses VGIEM Bus Driver, which can be installed from here https://vigembusdriver.com \
