@@ -14,6 +14,11 @@ It uses VGIEM Bus Driver, which can be installed from here https://vigembusdrive
 \
 *NOTE*: LEFT TRIGGER and RIGHT TRIGGER are currently right click and left click on the mouse.
 
+# Usage
+```python
+python XBOX360_Emulator.py
+```
+
 # Left Stick Buttons:
 LEFT_STICK_UP = "w"\
 LEFT_STICK_DOWN = "s"\
