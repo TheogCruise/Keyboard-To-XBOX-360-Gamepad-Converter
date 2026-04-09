@@ -34,6 +34,7 @@ DPAD_LEFT = "left"
 DPAD_RIGHT = "right"
 
 gamepad = vg.VX360Gamepad()
+print("Press CTRL + SHIFT + ALT + Z to stop the script)
 
 def calculate_left_stick_value():
 
@@ -149,9 +150,14 @@ def check_for_buttons():
         gamepad.release_button(button=vg.XUSB_BUTTON.XUSB_GAMEPAD_DPAD_RIGHT)
 
 
-while True:
+runing = True
+while runing:
 
     calculate_left_stick_value()
     check_for_triggers()
     check_for_buttons()
     gamepad.update()
+
+    if keyboard.is_pressed("ctrl+shift+alt+z"):
+        runing = False
+        print("Stopping script")
